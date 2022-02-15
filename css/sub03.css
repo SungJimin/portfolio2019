@@ -1,0 +1,15 @@
+/* sub03.css */
+main>.gallery>.workWrap>.site01>.bgWork>.txt{background-image: url('../img/sub03/mockup01.jpg');}
+main>.gallery>.workWrap>.site02>.bgWork>.txt{background-image: url('../img/sub03/mockup02.jpg');}
+main>.gallery>.workWrap>.site03>.bgWork>.txt{background-image: url('../img/sub03/mockup03.jpg');}
+main>.gallery>.workWrap>.site04>.bgWork>.txt{background-image: url('../img/sub03/mockup04.jpg');}
+
+div.c1{background-color: #996fd1;}
+div.c2{background-color: #64a6c1;}
+div.c3{background-color: #37425b;}
+div.c4{background-color: #87a697;}
+
+.bgWork>.c1{background-image:url();}
+.bgWork>.c2{background-image:url();}
+.bgWork>.c3{background-image:url();}
+.bgWork>.c4{background-image:url();}

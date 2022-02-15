@@ -1,0 +1,598 @@
+/* sub01.css */
+main {
+  overflow: hidden;
+}
+main>div.pageWrap {}
+main>div.pageWrap>.page {
+  width: 100%;
+  height: 680px;
+}
+main>div.pageWrap>.page>.fl {
+  padding-left: 90px;
+}
+
+main>div.pageWrap>.page .header {
+  padding: 80px 0 40px;
+}
+
+main h4 {
+  line-height: 40px;
+  font-weight: bold;
+}
+
+main>div.pageWrap>.page .header>h2 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+main>div.pageWrap>.page .content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+main>div.pageWrap>.page .content>.title {
+  width: 200px;
+  overflow: hidden;
+  float: left;
+}
+
+main>div.pageWrap>.page .content>.title>.bar {
+  width: 2px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 10px;
+  float: left;
+}
+
+main>div.pageWrap>.page .content>.title>h3 {
+  font-size: 18px;
+  float: left;
+}
+
+main>div.pageWrap>.page .content>.section {
+  float: left;
+  width: 300px;
+}
+
+/* about-p1 */
+main>div.pageWrap>.p01 {
+  position: relative;
+  color: #fff;
+}
+
+main>div.pageWrap>.p01>.fl {
+}
+
+main>div.pageWrap>.p01>.fl>.content>.section {
+  width: 300px;
+  line-height: 30px;
+}
+
+main>div.pageWrap>.p01>.fl>.content>.section>.art01 {}
+
+main>div.pageWrap>.p01>.fl>.content>.section>.art02 {
+  margin-top: 20px;
+}
+
+main>div.pageWrap>.p01>.fr {
+  width: 440px;
+  height: 440px;
+  border-radius: 220px;
+  background-color: #1d1d1d;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: -1000px;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+main>div.pageWrap>.p01>.fr>.picture {
+  background-image: url('../img/sub01/img01.png');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* about-p2 */
+main>div.pageWrap>.p02 {
+  padding: 0 90px;
+  color: #fff;
+}
+
+main>div.pageWrap>.p02>.content {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main>div.pageWrap>.p02>.content>article {}
+
+main>div.pageWrap>.p02>.content>article>.chart {
+  width: 110px;
+  border-radius: 55px;
+  position: relative;
+  background-color: #abc;
+  overflow: hidden;
+  margin: 0 44px;
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>ul {
+  width: 55px;
+  float: left;
+  background-color: #fdbdbd;
+  overflow: hidden;
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>ul>li {
+  width: 55px;
+  height: 110px;
+  background-color: #fff;
+  /* transform-origin: right; */
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>.left>li {
+  transform: rotate(180deg);
+    transform-origin: right;
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>.right>li {
+  transform: rotate(0deg);
+  margin-left: -55px;
+      transform-origin: right;
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>.pannel {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  background-color: #bd0d22;
+  padding: 25px 0;
+}
+
+main>div.pageWrap>.p02>.content>article>.chart>.pannel>p {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+main>div.pageWrap>.p02>.content>article>.title {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+main>div.pageWrap>.p02>.content>article>.title>p {
+  height: 80px;
+}
+
+/* about-p3 */
+main>div.pageWrap>.p03 {}
+
+main>div.pageWrap>.p03>.header {
+  padding-left: 90px;
+}
+
+main>div.pageWrap>.p03>.content {
+  width: 1060px;
+  margin: 0 auto;
+  position: relative;
+}
+
+main>div.pageWrap>.p03>.content>.fl {
+  width: 400px;
+}
+
+main>div.pageWrap>.p03>.content .header {
+  padding: 0; width: 100%;
+}
+
+main>div.pageWrap>.p03>.content>.fl>.pic01 {
+  width: 100%;
+  height: 240px;
+  background-image: url('../img/sub01/pic01.jpg');
+}
+
+main>div.pageWrap>.p03>.content>.fr {
+  width: 640px;
+  height: 540px;
+  margin-left: 20px;
+  position: absolute;
+  top: -120px;
+  right: 0;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.sc02 {
+  margin-top: 20px;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.section>.header {
+  width: 340px;
+}
+main>div.pageWrap>.p03>.content>.fr>.sc01>.header {
+  padding-left: 20px;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.sc02>.header {
+  padding-right: 20px;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.section>.pic {
+  background-position: center;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.section>.pic02 {
+  width: 300px;
+  height: 240px;
+  background-image: url('../img/sub01/pic02.jpg');
+  background-size: cover;
+}
+
+main>div.pageWrap>.p03>.content>.fr>.section>.pic03 {
+  width: 300px;
+  height: 240px;
+  background-image: url('../img/sub01/pic03.jpg');
+  background-size: 150%;
+}
+
+/* about-p4 */
+main>div.pageWrap>.p04 {
+  position: relative;
+}
+
+main>div.pageWrap>.p04>.gallWrap {
+  width: 400px;
+  height: 540px;
+  overflow: hidden;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: -20px;
+}
+
+main>div.pageWrap>.p04>.gallWrap>div {
+  width: 180px;
+  height: 240px;
+  background-size: cover;
+  float: left;
+  margin-right: 20px;
+  display: none;
+}
+
+main>div.pageWrap>.p04>.gallWrap>div:nth-child(2)~* {
+  margin-top: 20px;
+}
+
+main>div.pageWrap>.p04>.gallWrap>.gallery01 {
+  background-image: url('../img/sub01/gall01.jpg');
+}
+
+main>div.pageWrap>.p04>.gallWrap>.gallery02 {
+  background-image: url('../img/sub01/gall02.jpg');
+}
+
+main>div.pageWrap>.p04>.gallWrap>.gallery03 {
+  background-image: url('../img/sub01/gall03.jpg');
+}
+
+main>div.pageWrap>.p04>.gallWrap>.gallery04 {
+  background-image: url('../img/sub01/gall04.jpg');
+}
+
+main>div.pageWrap>.p04>.circle {
+  width: 910px;
+  height: 680px;
+  color: #fff;
+  background-image: url('../img/sub01/page4circle.png');
+  position: absolute;
+  z-index: 1;
+  right: 1300px;
+  transition: all 1.5s;
+}
+
+main>div.pageWrap>.p04>.circle>.contentWrap>.co02 {
+  margin-top: 40px;
+}
+
+main>div.pageWrap>.p04>.circle>.contentWrap>.content>.title {
+  height: 40px;
+  width: 300px;
+  line-height: 40px;
+}
+main>div.pageWrap>.p04>.circle>.contentWrap>.content>.title>.bar{
+    height: 20px; margin: 10px 0;
+    margin-right: 10px;
+}
+
+main>div.pageWrap>.p04>.circle>.contentWrap>.content>.section {
+  width: 440px;
+  line-height: 30px;
+}
+
+/* about-p5 */
+main>div.pageWrap>.p05 {
+  position: relative;
+}
+
+main>div.pageWrap>.p05>.fl {
+  width: 440px;
+  height: 440px;
+  border-radius: 220px;
+  background-color:#1d1d1d;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: -50px;
+  overflow: hidden;
+}
+
+main>div.pageWrap>.p05>.fl>.picture {
+  background-image: url('../img/sub01/img02.png');
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+main>div.pageWrap>.p05>.fr {
+  margin-left: 410px;
+}
+
+main>div.pageWrap>.p05>.fr>.content>.title {
+  width: 200px; line-height: 40px;
+}
+main>div.pageWrap>.p05>.fr>.content>.title>.bar{
+    background-color: #000;
+    height: 20px; margin: 10px 0;
+    margin-right: 10px;
+}
+
+main>div.pageWrap>.p05>.fr>.content>section {
+  width: 440px;
+}
+
+main>div.pageWrap>.p05>.fr>.content>section>article>p {
+  line-height: 30px;
+}
+
+/* about-p6 */
+main>div.pageWrap>.p06 {
+  color: #fff;
+  position: relative;
+
+}
+main>div.pageWrap>.p06>.header {
+  padding-left: 90px; padding-bottom: 0;
+}
+main>div.pageWrap>.p06>.header>span{
+    font-size: 24px;
+}
+main>div.pageWrap>.p06>.header>span:last-child{color: #000;}
+main>div.pageWrap>.p06>.picture{
+  width: 250px; height: 200px;
+  position: absolute;
+  margin: auto;
+  left: 0; right: 0; top: 160px;
+  background-image: url('../img/sub01/img03.png');
+  background-size: cover;
+  background-position: center;
+}
+main>div.pageWrap>.p06>section {
+  position: relative;
+  height: 280px;
+  width: 1020px;
+  margin: 215px auto 40px;
+  padding-top: 40px;
+}
+main>div.pageWrap>.p06>section .imgGroup {
+  margin-left: -420px;
+  width: calc(270px * 7);
+  padding: 20px 0;
+  /*jq에서 기억해야 하는 것  margin-left: -150px; */
+}
+main>div.pageWrap>.p06>section .imgGroup div {
+  float: left;
+  width: 250px;
+  margin: 0 10px;
+}
+main>div.pageWrap>.p06>section .imgGroup div:nth-child(4) {
+  margin-left: 270px;
+}
+main>div.pageWrap>.p06>section .imgGroup>div>figure {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+main>div.pageWrap>.p06>section .i1 {
+  background-image: url('../img/sub01/i1.jpg');
+}
+main>div.pageWrap>.p06>section .i2 {
+  background-image: url('../img/sub01/i2.jpg');
+}
+main>div.pageWrap>.p06>section .i3 {
+background-image: url('../img/sub01/i3.jpg');
+}
+main>div.pageWrap>.p06>section .i4 {
+  background-image: url('../img/sub01/i4.jpg');
+}
+main>div.pageWrap>.p06>section .i5 {
+  background-image: url('../img/sub01/i5.jpg');
+}
+main>div.pageWrap>.p06>section .i6 {
+  background-image: url('../img/sub01/i6.jpg');
+}
+main>div.pageWrap>.p06>section .boxGroup {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 520px;
+  border-radius: 10px;
+  background-color: #000;
+}
+main>div.pageWrap>.p06>section .boxGroup article {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+main>div.pageWrap>.p06>section .boxGroup article:nth-child(1) {
+  display: flex;
+}
+main>div.pageWrap>.p06>section .boxGroup article .images {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+main>div.pageWrap>.p06>section .boxGroup article .segment {
+  color: #fff;
+  width: 260px;
+  overflow: hidden;
+}
+main>div.pageWrap>.p06>section .boxGroup article .segment h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+main>div.pageWrap>.p06>section .boxGroup article .segment p {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+}
+main>div.pageWrap>.p06>section .btnGroup {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  overflow: hidden;
+  width: 80px;
+}
+main>div.pageWrap>.p06>section .btnGroup li {
+  width: 20px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+}
+main>div.pageWrap>.p06>section .btnGroup li:first-child{
+  margin-right: 20px;
+}
+main>div.pageWrap>.p06>section .btnGroup li:active {
+  color: #ddd;
+}
+
+div.bgWrap{
+    width: 1200px;
+    height: 680px;
+    background-color: #FFF;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0; right: 0; left: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+div.bgWrap>.bg{
+    border-radius: 2000px;
+    position: absolute;
+}
+div.bgWrap>.red{
+    background-color: #bd0d22;
+    width: 1080px; height: 1080px;
+    top: -200px; bottom: -200px;
+    left: -210px;
+
+}
+div.bgWrap>.pink{
+    background-color: #fdbdbd;
+    width: 440px; height: 440px;
+    top: 120px; bottom: 120px;
+    right: -100px;
+}
+
+
+
+div.etc {
+  width: 30px;
+  position: fixed;
+  z-index: 5;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  text-align: center;
+}
+div.topBtn{
+    display: none;
+    width: 30px; height: 20px;
+    position: absolute;
+    right: 0px; left: 0; bottom: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+div.topBtn>p{
+    color: #fff;  font-size: 10px;
+}
+div.topBtn>p>a{
+  display: block; width: 100%;
+  cursor: pointer;
+}
+div.pageNum {
+  font-size: 10px;
+  position: fixed; width: 30px;
+  bottom: 100px;
+  color: #ccc;
+}
+
+div.scrani {
+  height: 40px;
+}
+
+div.scrani p {
+  font-size: 10px;
+  color: #ccc;
+  text-align: center;
+}
+
+div.scrani>.mouse {
+  margin: 0 auto;
+  width: 20px;
+  height: 30px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+div.scrani>.mouse>p {
+  animation-name: scrani;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrani {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 10px;
+    opacity: 0;
+  }
+}

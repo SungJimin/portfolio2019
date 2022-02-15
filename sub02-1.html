@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Persnal Site Style Guide</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+  <link rel="icon" href="img/common/siteicon.png">
+  <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <style>
+    div.topBtn{
+        width: 40px; height: 20px;
+        position: fixed; margin: auto;
+        right: 40px; bottom: 40px;
+        background-color: rgba(0,0,0,0.7);
+        cursor:pointer;
+    }
+    div.topBtn>p{
+        color: #fff;  font-size: 10px;
+        text-align: center;
+    }
+  </style>
+  <script>
+    $(function(){
+      $('.topBtn').on('click',function(){
+        $('html, body').animate({scrollTop : 0});
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="guide">
+    <img src="img/sub02/sitelayout01.jpg" alt="개인사이트 스타일가이드">
+  </div>
+  <div class="topBtn">
+    <p>TOP</p>
+  </div>
+</body>
+</html>

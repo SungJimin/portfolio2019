@@ -1,0 +1,169 @@
+/* sub02.css */
+main{
+    background-color: #fff;
+}
+main>div.gallery{
+  width: 790px; overflow:hidden;
+  float: left;
+}
+main>div.gallery>.workWrap{
+  width: calc(790px * 8);
+}
+main>div.gallery>.workWrap>.work{
+ float: left;
+}
+main>.gallery>.workWrap>.work>.bgWork{
+height: 680px;
+overflow: hidden;
+}
+main>.gallery>.workWrap>.site01>.bgWork>.txt{background-image: url('../img/sub02/iMac01.jpg');}
+main>.gallery>.workWrap>.site02>.bgWork>.txt{background-image: url('../img/sub02/iMac02.jpg');}
+main>.gallery>.workWrap>.site03>.bgWork>.txt{background-image: url('../img/sub02/iMac03.jpg');}
+main>.gallery>.workWrap>.site04>.bgWork>.txt{background-image: url('../img/sub02/iMac04.jpg');}
+
+div.c1{background-color: #bd0d22;}
+div.c2{background-color: #000;}
+div.c3{background-color: #0952a1;}
+div.c4{background-color: #324057;}
+.bgWork>.c1{background-image:url('../img/sub02/concept.jpg');}
+.bgWork>.c2{background-image:url('../img/sub02/concept2.jpg');}
+.bgWork>.c3{background-image:url('../img/sub02/concept3.jpg');}
+.bgWork>.c4{background-image:url('../img/sub02/concept4.jpg');}
+
+main>div.gallery>.workWrap>.work>.bgWork>.color{
+  width: 790px; height: 680px;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+main>div.gallery>.workWrap>.work>.bgWork>.txt{
+  background-color: rgba(0,0,0,0.2);
+  background-position: center;
+  background-size: cover;
+  width: 790px; height: 680px;
+  position: relative;
+  float: left;
+}
+main>div.gallery>.workWrap>.work>.bgWork>.txt>.focus{
+    width: 380px; height: 380px;
+    border-radius: 190px;
+    border: 1px solid rgba(255,255,255,0.2);
+    text-align: center; color: rgba(255,255,255,0.2);
+    line-height: 380px; font-size: 40px;
+    position:fixed; margin: auto;
+    left: 570px; bottom:250px; z-index:100;
+}
+main>div.gallery>.workWrap>.work>.bgWork>.txt>.header{
+  width: 100%;
+  position: absolute;
+  margin: auto; color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  left: 90px; bottom: 40px;
+}
+main>div.gallery>.workWrap>.work>.bgWork>.txt>.header>h2{
+    font-size: 60px; font-weight: bold;
+    line-height: 80px; height: 160px;
+}
+main>div.gallery>.workWrap>.work>.bgWork>.txt>.header>.btn{
+    margin-top: 20px;
+}
+main .btn{
+    width: 250px; overflow: hidden;
+    cursor: pointer;
+}
+main .btn>.nextBtn{
+    width: 60px; height: 40px;
+     line-height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/common/next.png');
+    float: left;
+}
+main .move>.nextBtn{
+  background-image: url('../img/common/nextColor.png');
+  animation-name: nextBt;
+  animation-iteration-count: infinite;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+}
+main .btn>h4{
+    font-size: 18px; line-height: 40px;
+    float: left;
+}
+@keyframes nextBt{
+    0%{margin-left: 0}
+    50%{margin-left: 10px}
+    100%{margin-left: 5px}
+}
+main>.projt{
+  float: left;
+  width: 410px;
+  overflow: hidden;
+}
+main>.projt h4{
+    line-height: 40px;
+    font-size: 18px; font-weight: bold;
+    border:1px solid #fff;
+    padding: 0 10px;
+}
+main>.projt>.prjtIntro{
+  padding-top: 80px; padding-left: 100px;
+  width: 410px; height: 400px;
+}
+main>.projt>.prjtIntro>.numGroup{
+  overflow: hidden; height: 40px;
+}
+main>.projt>.prjtIntro>.numGroup>li{
+  width: 410px; height: 40px;
+  line-height: 40px;
+}
+main>.projt>.prjtIntro>.txtGroup{
+  overflow: hidden;
+  width: 410px;
+  height: 30px;
+  line-height: 30px;
+}
+main>.projt>.prjtIntro>.pjtName{
+    height:40px; line-height:40px;
+    overflow: hidden;
+}
+main>.projt>.prjtIntro>.stLink{
+    margin-top: 40px;
+    overflow: hidden; height: 40px;
+    line-height: 40px;
+    color: #bd0d22;
+    width: 140px;
+    text-align: center;
+}
+main>.projt>.prjtIntro>.stLink>h4{
+    border:1px solid #bd0d22;
+    height: 40px;
+    padding: 0 10px;
+}
+main>.projt a{
+    display: block;
+    width: 100%;
+}
+
+main>.projt>.prjtLink{
+    width: calc(410px * 4);
+}
+main>.projt>.prjtLink>.color{
+  float: left;  height: 280px;
+  width: 410px; float: left;
+}
+main>.projt>.prjtLink>.color>.txt{
+  float: left; color: #fff;
+  padding: 40px 0 ;
+  padding-left: 100px;
+}
+main>.projt>.prjtLink>.color>.txt>.btn{
+    width: 100%;
+}
+main>.projt>.prjtLink>.color>.txt>.btn>h4:hover{
+  text-decoration: underline;
+}
+main>.projt>.prjtLink>.color>.txt>p{
+  float: left; width: 250px; height: 120px;
+  margin-top: 40px;
+}

@@ -1,0 +1,99 @@
+/* index.css */
+.main{
+    color: #c11f34;
+    position: relative;
+    outline : 3px solid red;
+}
+.main>.mainTxt{
+    width:1200px; height:calc(100vh - 40px);
+    position: absolute;
+    left: 0; right:0; top: 0;
+    margin: auto;
+    font-weight: bolder;
+    letter-spacing: -7px;
+}
+.main>.mt1{
+    padding-top: 240px;
+}
+.main>.mt1>.typo2{
+    font-size: 200px;
+    line-height: 200px;
+    width: 450px;
+    text-align: right;
+}
+.main>.mainImg{
+    width:1200px; height:calc(100vh - 40px);
+    background-image: url('../img/index/main.png');
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    left: 0; right:0; top: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.main>.mt2{
+    padding-top: 160px;
+    animation-name: bounceIn;
+}
+.main>.mt2>.typo1{
+    text-indent: 110px;
+    font-size: 60px;
+    line-height: 80px;
+}
+.main>.mt2>.typo3{
+    font-size: 60px;
+    line-height: 100px;
+    height: 80px;
+    margin-top: 200px;
+    text-indent: 290px;
+}
+.main>.mt2>.typo4{
+    font-size: 150px;
+    line-height: 160px;
+    text-indent: 350px;
+    letter-spacing: -17px;
+}
+.main>.mt2>.typoGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.main>.mt2>.typoGroup>div{}
+.main>.mt2>.typoGroup>.fl{
+    width: 610px;
+    text-align: right;
+}
+.main>.mt2>.typoGroup>.fl>.typo5{
+    font-size: 60px;
+    line-height: 80px;
+}
+.main>.mt2>.typoGroup>.fl>.typo6{
+    font-size: 100px;
+    line-height: 120px;
+}
+.main>.mt2>.typoGroup>.fr{
+    width: 590px;
+}
+.main>.mt2>.typoGroup>.fr>.typo7{
+    font-family: Adobe Gothic Std;
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -25px;
+}
+.main>.mainTxt span{
+    visibility: hidden;
+}
+.main>.mt1 span{
+    display: block;
+    visibility: visible;
+}
+div.footer{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    cursor: default;
+}
+div.footer>h5{
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    color: #ccc;
+}
